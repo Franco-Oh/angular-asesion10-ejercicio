@@ -4,6 +4,7 @@ import { ComponenteC1Component } from './componente-c1/componente-c1.component';
 import { ComponenteC2Component } from './componente-c2/componente-c2.component';
 import { ComponenteC3Component } from './componente-c3/componente-c3.component';
 import { ComponenteC4Component } from './componente-c4/componente-c4.component';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -15,7 +16,8 @@ import { ComponenteC4Component } from './componente-c4/componente-c4.component';
     ComponenteC4Component
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     ComponenteC1Component,

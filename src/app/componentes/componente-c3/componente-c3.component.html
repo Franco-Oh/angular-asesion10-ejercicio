@@ -1,5 +1,5 @@
-<div class="border p-5">
-    <input type="text" placeholder="Ingresa nombre tarea" class="border">
-    <textarea name="" id="" cols="30" rows="10" placeholder="Ingresa Descripción" class="border rounded-[20px]"></textarea>
-    <button type="button" class="rounded-md bg-sky-400">Guardar</button>
+<div class="max-w-fit border p-14 grid place-content-center">
+    <input type="text" placeholder="Ingresa nombre tarea" class="border rounded-md" [(ngModel)]="nombreTarea"><br>
+    <textarea name="" id="" cols="25" rows="8" placeholder="Ingresa Descripción" class="border rounded-[20px]" [(ngModel)]="descrip"></textarea><br>
+    <button type="button" class="rounded-md bg-sky-400 py-1" (click)="guardarTarea()">Guardar</button>
 </div>

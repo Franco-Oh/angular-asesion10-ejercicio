@@ -7,6 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ComponenteC3Component implements OnInit {
 
+  nombreTarea!:string;
+  descrip!:string;
+  listaTarea = [];
+
+  guardarTarea(){
+    console.log(this.nombreTarea);
+    console.log(this.descrip);
+  }
+
   constructor() { }
 
   ngOnInit(): void {
